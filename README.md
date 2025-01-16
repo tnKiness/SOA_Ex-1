@@ -1,21 +1,18 @@
-# SOA_Ex-1
+# SOA - Exercise 1
 
-#### Mô tả:
-**Website MU Store** được xây dựng bằng C# kết hợp với mô hình ASP.NET MVC, hỗ trợ quản lý cửa hàng bán điện thoại với các chức năng:
-- Thêm, xóa, sửa sản phẩm.
-- Chức năng tìm kiếm và thống kê.
-- Giỏ hàng cho phép khách hàng lựa chọn sản phẩm và thanh toán.
-- Phân quyền giữa Admin, Nhân viên giao hàng và User.
-  - **Admin**: Quản trị toàn bộ hệ thống và quản lý các sản phẩm, đơn hàng.
-  - **Nhân viên giao hàng**: Quản trị một phần hệ thống và quản lý các đơn hàng.
-  - **User**: Xem sản phẩm, các trang thông tin và thực hiện mua hàng.
+### Description
 
-#### MỤC TIÊU:
-Xây dựng website bán hàng đáp ứng nhu cầu quản lý và mua sắm trực tuyến, giúp khách hàng dễ dàng tìm kiếm và lựa chọn sản phẩm, tiết kiệm thời gian và chi phí.
+#### Database: Microsoft SQL Server
 
-### TÁC GIẢ:
+#### Server site (): Create SOAP services to expose the data
+- Get all countries from database.
+- Get country by country code.
+- Get city by name.
+- Get all cities of a specific country.
 
-- Trần Nhật Khánh - Tác giả chính: [GitHub](https://github.com/tnKiness)
-- Nguyễn Phụng Châu - Đồng tác giả: [GitHub](https://github.com/j1mmyhvstle)
-- Lê Lộc Sơn - Đồng tác giả: [GitHub](https://github.com/SonLocLe)
-- Đinh Duy Thống- Đồng tác giả: [GitHub]()
+#### Client site ()
+- 2 textboxs for user enter country code and city name
+- 4 buttons for user to perform operations
+- 1 grid view to show result.
+
+
